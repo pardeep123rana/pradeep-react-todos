@@ -1,4 +1,3 @@
-import React from "react";
 import File from "./file";
 import Add from "./add";
 import { NavLink } from "react-router-dom";
@@ -8,7 +7,7 @@ const Navbar = () => {
     <div className="w-full">
       <File />
       <Add />
-      <nav className="text-black flex justify-center items-center mt-7">
+      <nav className="text-black flex justify-center items-center mt-7 ">
         <ul className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-10">
           <li>
             <NavLink

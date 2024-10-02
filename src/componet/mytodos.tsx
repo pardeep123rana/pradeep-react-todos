@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import { useContext, useState } from "react";
 import { TodosContext } from "../store/todos";
 import { useSearchParams } from "react-router-dom";
 
